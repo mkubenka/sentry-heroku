@@ -57,7 +57,7 @@ Email notifications
 
 Follow the steps below, if you want to enable Sentry's email notifications:
 
-1. Add SendGrid add-on to your Heroku application::
+1. Add SendGrid add-on to your Heroku application (verified Heroku account is needed)::
 
         heroku addons:add sendgrid
 
