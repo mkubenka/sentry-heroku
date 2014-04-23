@@ -68,3 +68,5 @@ Follow the steps below, if you want to enable Sentry's email notifications:
 3. Set the email addresses that should be notified::
 
         heroku config:set ADMINS=john.matrix@example.com,jack.daniels@example.com
+
+If you want to use your own SMTP server change ``EMAIL_*`` variables in ``sentry.conf.py``.
